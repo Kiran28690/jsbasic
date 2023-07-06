@@ -6,9 +6,46 @@
     <title>JavaScript HTML</title>
 </head>
 <body>
+
+    <div id="root">JavaScript</div>
     
     <script type="text/javascript">
+        document.getElementById('root').innerHTML = 'Good Morning! Welcome to the JavaScipt';
+        // Left = Right ,  Left <- Right assign value
+
+        // Variable are like bucket - to store the data like numbers, string
+        // keyword is a reserved word 
+        // var <var_name>
+
+        var x;  // variable declaration
+
+        var y = 10;  // variable declaration and initialization
+
+        x = 30;     // variable initialization
+
+        // var var;  var is a keyword
+        // var class; class is a keyword
+        // var boolean;
+
+        console.log(x + y);
+
+        let z; // variable declaration using let
+
+        // Prescedence of operator more than one operator
+
+        z = x + y; // when have more than one operator in called Expression, Expression (Programming term) = Equation (In Maths)
+            
+        //BODMASS Rule in Maths called in programming language -> Prescedence rule
         
+        console.log("The sum of x + y = "+  z);
+
+        const a = 40; // const declaration and initialize 
+
+        console.log(z + a);
+
+
+
+
     </script>
 </body>
 </html>
